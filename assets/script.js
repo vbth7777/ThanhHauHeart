@@ -5,9 +5,11 @@ var globalSettings = {
 const startBtn = document.querySelector(".start-btn");
 const closeBtn = document.querySelector(".close-btn");
 const timeLapseBtn = document.querySelector(".time-lapse-btn");
+const fullVideoBtn = document.querySelector(".full-video-btn");
 function startClicked() {
   startBtn.style.display = "none";
   timeLapseBtn.style.display = "none";
+  fullVideoBtn.style.display = "none";
   function beatingHeart(canvas, settings = null) {
     if (settings === null) {
       settings = {
@@ -300,7 +302,7 @@ function startClicked() {
     flashScreen();
     globalSettings.color = "cyan";
     setBackground("./assets/images/icon1.jpg");
-    await sleep(5000);
+    await sleep(6000);
     flashScreen();
     setBackground("./assets/images/icon2.jpg");
     globalSettings.color = "red";
