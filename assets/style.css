@@ -151,10 +151,14 @@ canvas{
   top: 50%;  
   left: 50%;
 }
-.time-lapse-btn{
+.time-lapse-btn, .full-video-btn{
   position: absolute;
+  margin: 10px;
   bottom:0;
   left:0;
+}
+.full-video-btn{
+  bottom:50px;
 }
 .close-btn{
   position: absolute;
