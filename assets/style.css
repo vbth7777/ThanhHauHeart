@@ -25,7 +25,7 @@ canvas {
 #shadowHeart {
     z-index: 1;
     position: absolute;
-    transform: scale(1.5);
+    transform: scale(1.2);
     /* animation:fadeIn 1.5s infinite;
   animation-delay: 0.5s; */
 }
@@ -71,13 +71,13 @@ canvas {
 }
 @keyframes heart {
     0% {
-        transform: scale(1);
+        transform: scale(0.8);
     }
     50% {
-        transform: scale(1.5);
+        transform: scale(1.2);
     }
     100% {
-        transform: scale(1);
+        transform: scale(0.8);
     }
 }
 /* .btn{
