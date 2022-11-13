@@ -4,7 +4,8 @@ var globalSettings = {
 };
 const startBtn = document.querySelector(".start-btn");
 const closeBtn = document.querySelector(".close-btn");
-const timeLapseBtn = document.querySelector(".time-lapse-btn");
+const timeLapse2xBtn = document.querySelector(".time-lapse-2x-btn");
+const timeLapse4xBtn = document.querySelector(".time-lapse-4x-btn");
 const fullVideoBtn = document.querySelector(".full-video-btn");
 function startClicked() {
   startBtn.style.display = "none";
@@ -326,3 +327,19 @@ function startClicked() {
   };
 }
 startBtn.onclick = startClicked;
+
+fullVideoBtn.onclick = function () {
+  open(
+    "https://drive.google.com/file/d/1JRSGJIaY-1zt1RuPmyRdI1TBBEhbqo5_/view?usp=sharing"
+  );
+};
+timeLapse2xBtn.onclick = function () {
+  open(
+    "https://drive.google.com/file/d/1JRSGJIaY-1zt1RuPmyRdI1TBBEhbqo5_/view?usp=sharing"
+  );
+};
+timeLapse4xBtn.onclick = function () {
+  open(
+    "https://drive.google.com/file/d/1JRSGJIaY-1zt1RuPmyRdI1TBBEhbqo5_/view?usp=sharing"
+  );
+};
